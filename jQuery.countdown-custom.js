@@ -495,7 +495,7 @@ e.',
 
 	validArgType = typeof selectorStr === 'string';
 	argIsIdSelector = validArgType ?
-		( /^#/ ).exec( selectorString ) :
+		( /^#/ ).exec( selectorStr ) :
 		false;
 	try {
 		if ( validArgType && argIsIdSelector ) {
